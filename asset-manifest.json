@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ainobs/todoList-app.git/static/css/main.77d00b85.chunk.css",
-    "main.js": "/ainobs/todoList-app.git/static/js/main.485fd2c8.chunk.js",
-    "main.js.map": "/ainobs/todoList-app.git/static/js/main.485fd2c8.chunk.js.map",
-    "runtime-main.js": "/ainobs/todoList-app.git/static/js/runtime-main.18e46692.js",
-    "runtime-main.js.map": "/ainobs/todoList-app.git/static/js/runtime-main.18e46692.js.map",
-    "static/js/2.df59ad51.chunk.js": "/ainobs/todoList-app.git/static/js/2.df59ad51.chunk.js",
-    "static/js/2.df59ad51.chunk.js.map": "/ainobs/todoList-app.git/static/js/2.df59ad51.chunk.js.map",
-    "static/js/3.4baaeed6.chunk.js": "/ainobs/todoList-app.git/static/js/3.4baaeed6.chunk.js",
-    "static/js/3.4baaeed6.chunk.js.map": "/ainobs/todoList-app.git/static/js/3.4baaeed6.chunk.js.map",
+    "main.css": "/ainobs/todoList-app.git/static/css/main.478c3ba3.chunk.css",
+    "main.js": "/ainobs/todoList-app.git/static/js/main.8ef59fe8.chunk.js",
+    "main.js.map": "/ainobs/todoList-app.git/static/js/main.8ef59fe8.chunk.js.map",
+    "runtime-main.js": "/ainobs/todoList-app.git/static/js/runtime-main.0597945c.js",
+    "runtime-main.js.map": "/ainobs/todoList-app.git/static/js/runtime-main.0597945c.js.map",
+    "static/js/2.845e9101.chunk.js": "/ainobs/todoList-app.git/static/js/2.845e9101.chunk.js",
+    "static/js/2.845e9101.chunk.js.map": "/ainobs/todoList-app.git/static/js/2.845e9101.chunk.js.map",
+    "static/js/3.7d072399.chunk.js": "/ainobs/todoList-app.git/static/js/3.7d072399.chunk.js",
+    "static/js/3.7d072399.chunk.js.map": "/ainobs/todoList-app.git/static/js/3.7d072399.chunk.js.map",
     "index.html": "/ainobs/todoList-app.git/index.html",
-    "static/css/main.77d00b85.chunk.css.map": "/ainobs/todoList-app.git/static/css/main.77d00b85.chunk.css.map",
-    "static/js/2.df59ad51.chunk.js.LICENSE.txt": "/ainobs/todoList-app.git/static/js/2.df59ad51.chunk.js.LICENSE.txt"
+    "static/css/main.478c3ba3.chunk.css.map": "/ainobs/todoList-app.git/static/css/main.478c3ba3.chunk.css.map",
+    "static/js/2.845e9101.chunk.js.LICENSE.txt": "/ainobs/todoList-app.git/static/js/2.845e9101.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.18e46692.js",
-    "static/js/2.df59ad51.chunk.js",
-    "static/css/main.77d00b85.chunk.css",
-    "static/js/main.485fd2c8.chunk.js"
+    "static/js/runtime-main.0597945c.js",
+    "static/js/2.845e9101.chunk.js",
+    "static/css/main.478c3ba3.chunk.css",
+    "static/js/main.8ef59fe8.chunk.js"
   ]
 }
