@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/todoList-app.git/static/css/main.41a37881.chunk.css",
-    "main.js": "/todoList-app.git/static/js/main.cf27db2d.chunk.js",
-    "main.js.map": "/todoList-app.git/static/js/main.cf27db2d.chunk.js.map",
-    "runtime-main.js": "/todoList-app.git/static/js/runtime-main.4c6dc2f6.js",
-    "runtime-main.js.map": "/todoList-app.git/static/js/runtime-main.4c6dc2f6.js.map",
-    "static/js/2.69d504c1.chunk.js": "/todoList-app.git/static/js/2.69d504c1.chunk.js",
-    "static/js/2.69d504c1.chunk.js.map": "/todoList-app.git/static/js/2.69d504c1.chunk.js.map",
-    "index.html": "/todoList-app.git/index.html",
-    "static/css/main.41a37881.chunk.css.map": "/todoList-app.git/static/css/main.41a37881.chunk.css.map",
-    "static/js/2.69d504c1.chunk.js.LICENSE.txt": "/todoList-app.git/static/js/2.69d504c1.chunk.js.LICENSE.txt"
+    "main.css": "/github.io/todoList-app.git/static/css/main.41a37881.chunk.css",
+    "main.js": "/github.io/todoList-app.git/static/js/main.93bae72e.chunk.js",
+    "main.js.map": "/github.io/todoList-app.git/static/js/main.93bae72e.chunk.js.map",
+    "runtime-main.js": "/github.io/todoList-app.git/static/js/runtime-main.73c06cf9.js",
+    "runtime-main.js.map": "/github.io/todoList-app.git/static/js/runtime-main.73c06cf9.js.map",
+    "static/js/2.69d504c1.chunk.js": "/github.io/todoList-app.git/static/js/2.69d504c1.chunk.js",
+    "static/js/2.69d504c1.chunk.js.map": "/github.io/todoList-app.git/static/js/2.69d504c1.chunk.js.map",
+    "index.html": "/github.io/todoList-app.git/index.html",
+    "static/css/main.41a37881.chunk.css.map": "/github.io/todoList-app.git/static/css/main.41a37881.chunk.css.map",
+    "static/js/2.69d504c1.chunk.js.LICENSE.txt": "/github.io/todoList-app.git/static/js/2.69d504c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c6dc2f6.js",
+    "static/js/runtime-main.73c06cf9.js",
     "static/js/2.69d504c1.chunk.js",
     "static/css/main.41a37881.chunk.css",
-    "static/js/main.cf27db2d.chunk.js"
+    "static/js/main.93bae72e.chunk.js"
   ]
 }
