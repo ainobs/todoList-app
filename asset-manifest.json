@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ainobs/todoList-app.git/static/css/main.bf1863a8.chunk.css",
-    "main.js": "/ainobs/todoList-app.git/static/js/main.1cd531f1.chunk.js",
-    "main.js.map": "/ainobs/todoList-app.git/static/js/main.1cd531f1.chunk.js.map",
+    "main.css": "/ainobs/todoList-app.git/static/css/main.68fb96aa.chunk.css",
+    "main.js": "/ainobs/todoList-app.git/static/js/main.a66aa55c.chunk.js",
+    "main.js.map": "/ainobs/todoList-app.git/static/js/main.a66aa55c.chunk.js.map",
     "runtime-main.js": "/ainobs/todoList-app.git/static/js/runtime-main.e1594972.js",
     "runtime-main.js.map": "/ainobs/todoList-app.git/static/js/runtime-main.e1594972.js.map",
-    "static/js/2.df59ad51.chunk.js": "/ainobs/todoList-app.git/static/js/2.df59ad51.chunk.js",
-    "static/js/2.df59ad51.chunk.js.map": "/ainobs/todoList-app.git/static/js/2.df59ad51.chunk.js.map",
+    "static/js/2.69d504c1.chunk.js": "/ainobs/todoList-app.git/static/js/2.69d504c1.chunk.js",
+    "static/js/2.69d504c1.chunk.js.map": "/ainobs/todoList-app.git/static/js/2.69d504c1.chunk.js.map",
     "index.html": "/ainobs/todoList-app.git/index.html",
-    "static/css/main.bf1863a8.chunk.css.map": "/ainobs/todoList-app.git/static/css/main.bf1863a8.chunk.css.map",
-    "static/js/2.df59ad51.chunk.js.LICENSE.txt": "/ainobs/todoList-app.git/static/js/2.df59ad51.chunk.js.LICENSE.txt"
+    "static/css/main.68fb96aa.chunk.css.map": "/ainobs/todoList-app.git/static/css/main.68fb96aa.chunk.css.map",
+    "static/js/2.69d504c1.chunk.js.LICENSE.txt": "/ainobs/todoList-app.git/static/js/2.69d504c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e1594972.js",
-    "static/js/2.df59ad51.chunk.js",
-    "static/css/main.bf1863a8.chunk.css",
-    "static/js/main.1cd531f1.chunk.js"
+    "static/js/2.69d504c1.chunk.js",
+    "static/css/main.68fb96aa.chunk.css",
+    "static/js/main.a66aa55c.chunk.js"
   ]
 }
