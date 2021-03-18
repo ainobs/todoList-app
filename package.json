@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/ainobs/todoList-app.git",
+  "homepage": "https://ainobs.github.io/todoList-app",
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,8 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-flip-move": "^3.0.4",
+    "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },

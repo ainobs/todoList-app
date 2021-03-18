@@ -1,4 +1,6 @@
 import './Header.css'
+import { IoAdd } from 'react-icons/io5';
+
 const Header = ({ submit, todo, setTodo }) => {
     return ( 
         <div className="header">
@@ -11,7 +13,7 @@ const Header = ({ submit, todo, setTodo }) => {
                     value= {todo}
                     onChange= {(e)=> {setTodo(e.target.value)}}
                 />
-                <button type="submit" className="todo-btn">+</button>
+                <IoAdd onClick={submit} className="todo-btn" />
             </form>
         </div>
      );

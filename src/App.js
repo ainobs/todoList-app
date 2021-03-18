@@ -1,11 +1,25 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Header from './component/header';
 import List from './component/List';
+import Footer from './component/Footer';
 
 let App = ()=> {
   const [todo, setTodo] = useState('');
   const [todoList, setTodoList] = useState([]);
+
+  useEffect(() => {
+    const temp = localStorage.getItem("list");
+    const loadedList = JSON.parse(temp);
+    if(loadedList) {
+      setTodoList(loadedList);
+    }
+  }, []);
+
+  useEffect(() => {
+    const store = JSON.stringify(todoList);
+    localStorage.setItem("list", store);
+  }, [todoList]);
 
   let handleSubmit = (e)=> {
     e.preventDefault();
@@ -29,6 +43,20 @@ let App = ()=> {
     setTodoList(deleteItem);
   }
 
+  const completedItems = () => {
+    let hold = [...todoList];
+    hold.filter((e) =>  e.completed === true)
+  
+    setTodoList(hold);
+  }
+
+  
+
+  const active = () => {
+    let hold = todoList.filter((e) => e.completed === false);
+    setTodoList(hold);
+  }
+
   //HANDLE EDIT FUNCTION
   let handleEdit = (id) => {
     let deleteItem = todoList.filter((e)=> e.id !== id);
@@ -45,13 +73,14 @@ let App = ()=> {
         }
         return item;
       })
-      setTodoList(checkList);
+      setTodoList(checkList)
   }
   
   return (
     <div className="App">
       <Header todo={todo} setTodo={setTodo} submit={handleSubmit} />
       <List items={todoList} deleteItem={handleDelete} editTodo={handleEdit} handleCheck={handleCheckBox}/>
+      <Footer items={todoList} completed={completedItems} active={active}/>
     </div>
   );
 }
