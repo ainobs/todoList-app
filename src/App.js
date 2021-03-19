@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
-import './App.css';
 import Header from './component/header';
 import List from './component/List';
 import Footer from './component/Footer';
 
 let App = ()=> {
+
+  // SETTING STATES TO KEEP TRACK OF USER INPUTS AND UPDATE LIST
   const [todo, setTodo] = useState('');
   const [todoList, setTodoList] = useState([]);
 
+  //RETRIEVING USER DATA STORED IN THE LOCAL STORAGE
   useEffect(() => {
     const temp = localStorage.getItem("list");
     const loadedList = JSON.parse(temp);
@@ -16,11 +18,13 @@ let App = ()=> {
     }
   }, []);
 
+  //SAVING USER DATA IN THE LOCAL STORAGE WHICH IS SAVED WHENEVER THERE IS A CHANGE IN THE LIST ITEMS
   useEffect(() => {
     const store = JSON.stringify(todoList);
     localStorage.setItem("list", store);
   }, [todoList]);
 
+  //FUNCTION TO HANDLE FORM SUBMISSION
   let handleSubmit = (e)=> {
     e.preventDefault();
 
@@ -30,7 +34,7 @@ let App = ()=> {
       completed: false
     }
 
-    // TO ALLOW ONLY TEXTS TO BE INSERTED INTO THE TODO LIST
+    // TO PREVENT EMPTY SPACES TO BE INSERTED INTO THE TODO LIST
     if(todo !== '') {
       setTodoList([...todoList, newItem]);
       setTodo('');
@@ -46,7 +50,6 @@ let App = ()=> {
   const completedItems = () => {
     let hold = [...todoList];
     hold.filter((e) =>  e.completed === true)
-  
     setTodoList(hold);
   }
 
@@ -57,7 +60,8 @@ let App = ()=> {
     setTodoList(hold);
   }
 
-  //HANDLE EDIT FUNCTION
+  //HANDLE EDIT FUNCTION WHICH REMOVES THE ITEM FROM THE LIST AND 
+  //RETURNS IT BACK TO THE INPUT FORM WHERE CORRECTIONS CAN BE MADE
   let handleEdit = (id) => {
     let deleteItem = todoList.filter((e)=> e.id !== id);
     let edit = todoList.find((e) => e.id === id)

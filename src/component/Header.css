@@ -10,12 +10,11 @@
     padding: 5.1rem 0 0 28.1rem;
 }
 .form {
-    width: 30rem;
+    width: 38%;
     display: flex;
     justify-content: space-between;
     margin: 40px auto;
 }
-
 .todo-form {
     width: 80%;
     height: 50px;
@@ -29,17 +28,24 @@
 .todo-form::placeholder {
     font-size: 20px;
 }
-
 .todo-btn {
-    width: 5rem;
+    width: 17%;
     border-radius: 6px;
     border: 0;
     background-color:rgb(110, 110, 245);
     height: 48px;
 }
 
-@media screen and(max-width: 700px) {
+/****** MEDIA QUERIES******/
+@media screen and (max-width: 700px) {
     .header-text {
-        left: 0;
+        padding: 5.1rem 0 0 5px ;
+    }
+    .form {
+        width: 95%;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 0;
+        
     }
 }
