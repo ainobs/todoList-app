@@ -1,5 +1,5 @@
     INTRODUCTION
-    This is a Todo list app which would help you itemize your planned events and keep track of your completed activities and those that are remaining. The functionality in the app includes 
+    This is a Todo list app which would help you itemize your planned events and keep track of your completed activities and those that are remaining. The functionalities of the app includes 
     * ADD
     * DELETE
     * EDIT
@@ -19,3 +19,9 @@
 
     CHECK and UNCHECK
     A checkbox by the side of the text can be used to check/uncheck a task off the list, where a checked item signifies completion of the task and uncheck signifies the task is still active.
+
+    APP COMPONENTS
+    The App comprises of three (3) components,
+    * Header component: which houses the input form where texts are entered.
+    * List component: displays the contents of the todo list.
+    * Footer component: displays the status of the items in the todo list, ranging from the total items, active tasks and completed tasks.
