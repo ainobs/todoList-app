@@ -1,4 +1,4 @@
-INTRODUCTION
+    INTRODUCTION
     This is a Todo list app which would help you itemize your planned events and keep track of your completed activities and those that are remaining. The functionality in the app includes 
     * ADD
     * DELETE
