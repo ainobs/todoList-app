@@ -10,7 +10,12 @@ const List = ({items, deleteItem, editTodo, handleCheck}) => {
             <FlipMove duration={300} easing='ease-in-out'>
                 {items.map((item) => {
                     return <div key={item.id} className="todo-list">
-                        <input type="checkbox" checked={item.completed} className="input-checkbox" onChange={() => {handleCheck(item.id)} } />
+                        <input 
+                            type="checkbox"
+                            checked={item.completed} 
+                            className="input-checkbox"
+                            onChange={() => {handleCheck(item.id)}}
+                        />
                         <span className={item.completed ? 'active' : 'input-text'}>{item.text}</span>
                         <FaRegEdit className="edit-btn" onClick={() => editTodo(item.id)} />
                         <FaTrash className="delete-btn" onClick={() => deleteItem(item.id)} />
