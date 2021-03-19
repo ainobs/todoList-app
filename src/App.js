@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import Header from './component/header';
-import List from './component/List';
-import Footer from './component/Footer';
+import Header from './components/header';
+import List from './components/List';
+import Footer from './components/Footer';
 
-let App = ()=> {
+const App = ()=> {
 
   // SETTING STATES TO KEEP TRACK OF USER INPUTS AND UPDATE LIST
   const [todo, setTodo] = useState('');
@@ -25,7 +25,7 @@ let App = ()=> {
   }, [todoList]);
 
   //FUNCTION TO HANDLE FORM SUBMISSION
-  let handleSubmit = (e)=> {
+  const handleSubmit = (e)=> {
     e.preventDefault();
 
     const newItem = {
@@ -42,27 +42,14 @@ let App = ()=> {
   }
 
   //DELETE ITEM FUNCTION
-  let handleDelete = (id) => {
+  const handleDelete = (id) => {
     let deleteItem = todoList.filter((e)=> e.id !== id);
     setTodoList(deleteItem);
   }
 
-  const completedItems = () => {
-    let hold = [...todoList];
-    hold.filter((e) =>  e.completed === true)
-    setTodoList(hold);
-  }
-
-  
-
-  const active = () => {
-    let hold = todoList.filter((e) => e.completed === false);
-    setTodoList(hold);
-  }
-
   //HANDLE EDIT FUNCTION WHICH REMOVES THE ITEM FROM THE LIST AND 
   //RETURNS IT BACK TO THE INPUT FORM WHERE CORRECTIONS CAN BE MADE
-  let handleEdit = (id) => {
+  const handleEdit = (id) => {
     let deleteItem = todoList.filter((e)=> e.id !== id);
     let edit = todoList.find((e) => e.id === id)
     setTodo(edit.text);
@@ -70,7 +57,7 @@ let App = ()=> {
   }
 
   //HANDLE CHECKBOX FUNCTION
-  let handleCheckBox = (id) => {
+  const handleCheckBox = (id) => {
       let checkList = todoList.map((item) => {
         if(item.id === id) {
           item.completed = !item.completed;
@@ -84,7 +71,7 @@ let App = ()=> {
     <div className="App">
       <Header todo={todo} setTodo={setTodo} submit={handleSubmit} />
       <List items={todoList} deleteItem={handleDelete} editTodo={handleEdit} handleCheck={handleCheckBox}/>
-      <Footer items={todoList} completed={completedItems} active={active}/>
+      <Footer items={todoList} />
     </div>
   );
 }

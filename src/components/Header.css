@@ -7,7 +7,7 @@
     font-size: 45px;
     font-weight: bolder;
     letter-spacing: 3px;
-    padding: 5.1rem 0 0 28.1rem;
+    padding: 5.1rem 0 0 26.3rem;
 }
 .form {
     width: 38%;
@@ -33,13 +33,13 @@
     border-radius: 6px;
     border: 0;
     background-color:rgb(110, 110, 245);
-    height: 48px;
+    height: 3rem;
 }
 
 /****** MEDIA QUERIES******/
 @media screen and (max-width: 700px) {
     .header-text {
-        padding: 5.1rem 0 0 5px ;
+        padding: 5.1rem 0 0 0.3125rem ;
     }
     .form {
         width: 95%;
